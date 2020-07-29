@@ -176,7 +176,8 @@ live2d:
         position: left 
         width: 200 
         height: 400 
-        mobile: 
+    mobile:
         show: true # 默认 false 
-        react: opacity: 0.7
+    react: 
+        opacity: 0.7
 
