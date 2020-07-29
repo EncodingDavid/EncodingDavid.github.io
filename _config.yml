@@ -162,5 +162,21 @@ live2d: # https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md
         scale: 0.5 # 移动设备上的缩放 
     react: 
         opacity: 0.7
-
+live2d: 
+    enable: true # 默认为 false 
+    scriptFrom: local 
+    pluginRootPath: live2dw/ 
+    pluginJsPath: lib/ 
+    pluginModelPath: assets/ 
+    tagMode: false 
+    log: false 
+    model: 
+    use: live2d-widget-model-nico
+    display: 
+        position: left 
+        width: 200 
+        height: 400 
+        mobile: 
+        show: true # 默认 false 
+        react: opacity: 0.7
 
